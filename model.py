@@ -15,10 +15,10 @@ import triton_python_backend_utils as pb_utils
 
 class TritonPythonModel:
 
-    @staticmethod
-    def auto_complete_config(auto_complete_model_config):
-        # OPTIONAL
-        pass
+    # @staticmethod
+    # def auto_complete_config(auto_complete_model_config):
+    #     # OPTIONAL
+    #     pass
 
     def initialize(self, args):
         # OPTIONAL. Called once when model is loaded.
@@ -40,6 +40,6 @@ class TritonPythonModel:
 
         return responses
 
-    def finalize(self):
-        # OPTIONAL. Runs on exit. Clean up.
-        print("Cleaning up")
+    # def finalize(self):
+    #     # OPTIONAL. Runs on exit. Clean up.
+    #     print("Cleaning up")
